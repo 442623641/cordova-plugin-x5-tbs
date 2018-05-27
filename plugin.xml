@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-x5-tbs" version="1.0.0">
+    <name>x5 WebView Engine</name>
+    <description>use x5webview for cordova to get a better webview browsing experience</description>
+    <license>Apache 2.0</license>
+    <keywords>x5webview,webview,chromium,cordova</keywords>
+    <engines>
+        <engine name="cordova-android" version=">=4" />
+        <engine name="cordova-plugman" version=">=5.2.0" />
+        <!-- needed for gradleReference support -->
+    </engines>
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <preference name="webView" value="com.leo.x5.X5WebViewEngine" />
+            <preference name="appUserAgent" value="x5webview" />
+            <preference name="android-minSdkVersion" value="15" />
+            <allow-navigation href="*"></allow-navigation>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        </config-file>
+        <source-file src="platforms/android/src/X5CookieManager.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5CordovaClientCertRequest.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5CordovaHttpAuthHandler.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5ExposedJsApi.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5WebChromeClient.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5WebView.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5WebViewClient.java" target-dir="src/com/leo/x5" />
+        <source-file src="platforms/android/src/X5WebViewEngine.java" target-dir="src/com/leo/x5" />
+        <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v3.6.0.1234_43608_sharewithdownload_withoutGame_obfs_20180510_111111.jar" />
+        <lib-file src="platforms/android/libs/armeabi/liblbs.so" />
+    </platform>
+    <info>
+    </info>
+</plugin>

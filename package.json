@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-x5-tbs",
+  "version": "0.0.6",
+  "description": "Changes the default WebView to x5engine",
+  "cordova": {
+    "id": "cordova-plugin-x5-tbs",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/44623641/cordova-plugin-x5-tbs.git"
+  },
+  "keywords": [
+    "cordova",
+    "chromium",
+    "x5engine",
+    "webview",
+    "tbs",
+    "tencent",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [{
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=5.2.0"
+    }
+  ],
+  "author": "LeoZhang",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/44623641/cordova-plugin-x5-tbs/issues"
+  },
+  "homepage": "https://github.com/44623641/cordova-plugin-x5-tbs#readme"
+}
