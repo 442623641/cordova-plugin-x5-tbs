@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package com.zsxsoft.cordova.x5;
+package com.leo.x5;
 
 import android.content.Context;
 import android.util.AttributeSet;

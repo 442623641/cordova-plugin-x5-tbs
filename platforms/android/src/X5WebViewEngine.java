@@ -17,7 +17,7 @@
        under the License.
 */
 
-package com.zsxsoft.cordova.x5;
+package com.leo.x5;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

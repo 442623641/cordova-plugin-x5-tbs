@@ -1,4 +1,4 @@
-package com.zsxsoft.cordova.x5;
+package com.leo.x5;
 
 /**
  * Created by zhangxitao on 16/9/14.
