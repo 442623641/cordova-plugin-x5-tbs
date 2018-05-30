@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package com.leo.x5;
+package com.zsxsoft.cordova.x5;
 
 import android.webkit.JavascriptInterface;
 
