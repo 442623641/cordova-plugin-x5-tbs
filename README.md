@@ -18,12 +18,22 @@ cordova plugin add https://github.com/442623641/cordova-plugin-x5-tbs.git
 ```
 
 ## 环境
+#### VERSION
+
+TBS SDK 43610 版本发布说明
+版本信息     大小：347K       
+版本号：v3.6.0.1249_43610       
+集成日期：20180608
+版本变更说明     1.修复加载x5内核 linker 异常问题
+
 
 ### 当前版本,更新时间20180510
 
 X5：tbs_sdk_thirdapp_v3.6.0.1234_43608_sharewithdownload_withoutGame_obfs_20180510_111111
 
 Chromium: 57.0.2987.132
+
+
 
 ## 感谢
 
