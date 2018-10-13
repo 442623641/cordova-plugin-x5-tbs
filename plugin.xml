@@ -32,7 +32,7 @@
         <source-file src="platforms/android/src/X5WebView.java" target-dir="src/com/leo/x5" />
         <source-file src="platforms/android/src/X5WebViewClient.java" target-dir="src/com/leo/x5" />
         <source-file src="platforms/android/src/X5WebViewEngine.java" target-dir="src/com/leo/x5" />
-        <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v3.6.0.1249_43610_sharewithdownload_withoutGame_obfs_20180608_114954.jar" />
+        <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v3.6.0.1352_43618_sharewithdownload_withoutGame_obfs_20180918_120327.jar" />
         <lib-file src="platforms/android/libs/armeabi/liblbs.so" />
     </platform>
     <info>
